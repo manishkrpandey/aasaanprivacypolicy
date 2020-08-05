@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
 
 function App() {
@@ -11,12 +11,16 @@ function App() {
   const square = 'square';
   return (
     <div className="App">
-      <div class="static-page">
-         <div class="static-page-content">
-            <div class="container">
-               <div class="row">
-                  <div class="col-xs-12">
-                     <div class="content">
+      <header className="header">
+      <img  className="logo" src={logo} alt="Logo" />
+      <span className="topheader">Aasaan Privacy Policy</span>
+      </header>
+      <div className="static-page">
+         <div className="static-page-content">
+            <div className="container">
+               <div className="row">
+                  <div className="col-xs-12">
+                     <div className="content">
                         <p><span>Last updated on August 5, 2020</span></p>
                         <p><span>This Privacy Policy (“</span><strong>Policy</strong><span>”) describes the policies and procedures on the collection, use, disclosure and protection of your information when you use our website located at&nbsp;AasaanApp.com, or the AasaanApp mobile application (collectively, “</span><strong>AasaanApp Platform</strong><span>”) made available by AasaanApp Technology (“</span><strong>AasaanApp</strong><span>”, “</span><strong>Company</strong><span>”, “</span><strong>we</strong><span>”, “</span><strong>us</strong><span>” and “</span><strong>our</strong><span>”), &nbsp;a private company established under the laws of India having its registered office at Mainpura kurji road,Gali No:-38 Patna:- 800001</span></p>
                         <p><span>The terms “you” and “your” refer to the user of the AasaanApp Platform. The term “</span><strong>Services</strong><span>” refers to any services offered by AasaanApp whether on the AasaanApp Platform or otherwise. </span></p>
@@ -143,7 +147,7 @@ function App() {
                         <p><span>If you wish to withdraw your consent for the use and disclosure of your personal information in the manner provided in this Policy, please write to us at [•]. Please note that we may take time to process such requests, and your request shall take effect no later than 5 (Five) business days from the receipt of such request, after which we will not use your personal data for any processing unless required by us to comply with our legal obligations. We may not be able offer you any or all Services upon such withdrawal of your consent.</span></p>
                         <p></p>
                         <p><strong>GRIEVANCE OFFICER AND AasaanApp PLATFORM SECURITY</strong></p>
-                        <p><span>If you have any queries relating to the processing or usage of information provided by you in connection with this Policy, please email us at </span><a href="/cdn-cgi/l/email-protection#9be8eeebebf4e9efdbe8ecf2fcfce2b5f2f5"><span><span class="__cf_email__" data-cfemail="e5969095958a9791a596928c82829ccb8c8b">[email&#160;protected]</span></span></a><span> or write to our Grievance Officer at the following address:</span></p>
+                        <p><span>If you have any queries relating to the processing or usage of information provided by you in connection with this Policy, please email us at </span><a href="/cdn-cgi/l/email-protection#9be8eeebebf4e9efdbe8ecf2fcfce2b5f2f5"><span><span className="__cf_email__" data-cfemail="e5969095958a9791a596928c82829ccb8c8b">[email&#160;protected]</span></span></a><span> or write to our Grievance Officer at the following address:</span></p>
                         <p>
                            <span><strong>AasaanApp Grievance Officer</strong></span>
                            <span>AasaanApp Technology,</span>
