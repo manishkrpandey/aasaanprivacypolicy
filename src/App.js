@@ -147,9 +147,8 @@ function App() {
                         <p>
                            <span><strong>AasaanApp Grievance Officer</strong></span>
                            <span>AasaanApp Technology,</span>
-                           <span>Maruthi Chambers Annex,</span>
-                           <span>4th Floor, #17/9B, Rupena Agrahara, Bangalore – 560068</span>
-                           <span>If you come across any abuse or violation of the Policy, please report to </span><span><a href="/cdn-cgi/l/email-protection#f592879c9083949b969086b586829c92928cdb9c9b"><span><span class="__cf_email__" data-cfemail="7a1d08131f0c1b14191f093a090d131d1d03541314">[email&#160;protected]</span></span></a></span>
+                           <span>Mainpura kurji road,Gali No:-38 Patna:- 800001</span>
+                           <span>If you come across any abuse or violation of the Policy, please report to AasaanApp technology</span>
                         </p>
                         
                      </div>
